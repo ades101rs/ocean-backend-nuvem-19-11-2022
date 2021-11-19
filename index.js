@@ -95,7 +95,7 @@ async function main() {
         res.send("Registro removido com sucesso.");
     });
 
-    app.listen(process.env.PORT || 3000));
+    app.listen(process.env.PORT || 3000);
 }
 
 main();
